@@ -7,15 +7,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      chambers: 6,
+      chambers: 7,
       levels: 2,
       masterKey: 0,
       controlKey: 0,
       userKey: 0,
-      driverPins: [0, 0, 0, 0, 0, 0],
-      controlPins: [0, 0, 0, 0, 0, 0],
-      masterPins: [0, 0, 0, 0, 0, 0],
-      bottomPins: [0, 0, 0, 0, 0, 0],
+      driverPins: [0, 0, 0, 0, 0, 0, 0],
+      controlPins: [0, 0, 0, 0, 0, 0, 0],
+      masterPins: [0, 0, 0, 0, 0, 0, 0],
+      bottomPins: [0, 0, 0, 0, 0, 0, 0],
     };
 
     this.handleMasterKeyChange = this.handleMasterKeyChange.bind(this);
