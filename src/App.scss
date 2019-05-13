@@ -1,0 +1,15 @@
+// import base bootstrap css file
+@import '~bootstrap/scss/bootstrap.scss';
+
+.chamber-row {
+  @extend .row;
+
+  .title {
+    @extend .col-2;
+  }
+
+  .digit {
+    @extend .col;
+    @extend .text-right;
+  }
+}

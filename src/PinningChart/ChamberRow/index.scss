@@ -1,0 +1,7 @@
+.chamber-row {
+  @extend .row;
+
+  .digit {
+    @extend .col;
+  }
+}
