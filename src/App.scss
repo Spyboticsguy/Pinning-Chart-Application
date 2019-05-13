@@ -1,6 +1,7 @@
 // import base bootstrap css file
 @import '~bootstrap/scss/bootstrap.scss';
 
+// styling for chamber display
 .chamber-row {
   @extend .row;
 
@@ -12,4 +13,14 @@
     @extend .col;
     @extend .text-right;
   }
+}
+
+// remove spinners from numerical inputs
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
 }
