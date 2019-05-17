@@ -17,7 +17,7 @@ export default function PinningChart(props) {
       />
       <ChamberRow title="Control Pins" cuts={props.controlPins} />
       <ChamberRow className="border-bottom" cuts={props.masterPins} />
-      <ChamberRow title="Bottom Pins" cuts={props.bottomPins} />
+      <ChamberRow title="Bottom Pins" cuts={props.bottomPins} hideZero={false} />
     </div>
   );
 }
